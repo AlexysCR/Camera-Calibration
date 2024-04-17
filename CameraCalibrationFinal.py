@@ -40,7 +40,7 @@ imageCounter = 0
 images = list()
 
 for i in range(FramesToSel):
-    fileName = 'FramesNew/.frame' + str(numFrame) + '.jpg'
+    fileName = 'FramesNew/frame(' + str(numFrame) + ').jpg'
     images = images + glob.glob(fileName)
     numFrame += increment
     imageCounter += 1
@@ -100,8 +100,8 @@ print( "Total Error: {}".format(mean_error/len(objpoints)) )
 
 # Undistortion
 # This frames were manually selected due to the different positions in the recording
-frames = ['FramesNew/.frame0.jpg','FramesNew/.frame400.jpg','FramesNew/.frame700.jpg','FramesNew/.frame1200.jpg','FramesNew/.frame1500.jpg',
-          'FramesNew/.frame1750.jpg','FramesNew/.frame1900.jpg','FramesNew/.frame2000.jpg','FramesNew/.frame2200.jpg','FramesNew/.frame2300.jpg']
+frames = ['FramesNew/frame(1).jpg','FramesNew/frame(400).jpg','FramesNew/frame(700).jpg','FramesNew/frame(1200).jpg','FramesNew/frame(1500).jpg',
+          'FramesNew/frame(1750).jpg','FramesNew/frame(1900).jpg','FramesNew/frame(2000).jpg','FramesNew/frame(2200).jpg','FramesNew/frame(2300).jpg']
 frameCounter = 0
 
 for frame in frames:
