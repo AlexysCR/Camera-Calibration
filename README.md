@@ -1,9 +1,9 @@
 # Camera-Calibration
 
-The program analizes a video in `h264` format where there is a chessboard used for camera calibration. Grabs evrey set of frames in order to detect the biggest square grid. Once found it calculates the parameters to fix the camera distortion. 
-Once found, these values are tested  correcting the image distortion of some video frames. The distortion is fixed by applying 2 types of fucntions: `cv.undistor` & `cv.remap`
+The program analyzes a video in `h264` format where there is a chessboard used for camera calibration. Grabs every set of frames to detect the biggest square grid. Once found it calculates the parameters to fix the camera distortion. 
+Once found, these values are tested correcting the image distortion of some video frames. The distortion is fixed by applying 2 types of functions: `cv.undistor` & `cv.remap`
 
-### Algorythm
+### Algorithm
 ![Flowchart Camera Calibration Algorithm](https://github.com/AlexysCR/Camera-Calibration/assets/111618122/ac6751cb-89da-4728-b1e5-a32b8b1ffa30)
 
 
@@ -33,3 +33,5 @@ Once found, these values are tested  correcting the image distortion of some vid
 
 Check the following document to read more about the results: 
 [Task 2 Report-Camera Calibration .pdf](https://github.com/AlexysCR/Camera-Calibration/files/15014495/Task.2.Report-Camera.Calibration.pdf)
+
+**NOTE: This project is part of the "Computer Vision" class during my german exchange program.**
